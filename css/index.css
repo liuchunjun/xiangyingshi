@@ -1,0 +1,369 @@
+@charset "UTF-8";
+.section {
+  padding: 0 45px;
+  position: relative;
+  transition: all .3s ease; }
+  .section .s_banner {
+    width: 100%;
+    height: 750px;
+    background: url("../img/b1.jpg");
+    transition: all .3s ease; }
+    .section .s_banner .b_title {
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      padding: 196px 0 110px 0;
+      transition: all .3s ease; }
+      .section .s_banner .b_title h2 {
+        font-size: 38px;
+        font-weight: 100;
+        margin-bottom: 20px;
+        transition: all .3s ease; }
+    .section .s_banner .b_intro {
+      max-width: 860px;
+      margin: 0 auto;
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -o-flex; }
+      .section .s_banner .b_intro .intro_part {
+        text-align: center;
+        flex: 1; }
+        .section .s_banner .b_intro .intro_part img {
+          padding-bottom: 10px; }
+        .section .s_banner .b_intro .intro_part div:nth-child(2) {
+          font-size: 32px;
+          color: #fff; }
+        .section .s_banner .b_intro .intro_part div:nth-child(3) {
+          font-size: 16px;
+          color: #fff;
+          padding: 2px; }
+    .section .s_banner .b_moreAbout {
+      margin-top: 78px;
+      text-align: center; }
+      .section .s_banner .b_moreAbout a {
+        display: inline-block;
+        padding: 10px 50px;
+        font-size: 18px;
+        color: #316fc7;
+        border: 1px solid transparent;
+        border-radius: 25px;
+        background: #fff; }
+        .section .s_banner .b_moreAbout a:hover {
+          background: transparent;
+          color: #fff;
+          border: 1px solid #fff; }
+
+.s_part .room {
+  width: 100%;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  align-items: self-start; }
+  .s_part .room li {
+    width: 25%;
+    padding: 15px;
+    color: #c4c4c4;
+    font-size: 16px;
+    font-family: Raleway;
+    text-align: center;
+    box-sizing: border-box; }
+    .s_part .room li a {
+      display: block;
+      width: 100%;
+      overflow: hidden; }
+      .s_part .room li a img {
+        width: 100%;
+        display: block;
+        transition: .3s ease; }
+    .s_part .room li .date {
+      margin: 12px 0 57px; }
+    .s_part .room li:first-child {
+      transition: all 1s ease-in-out;
+      margin-top: 100px; }
+    .s_part .room li:nth-child(2) {
+      transition: all 1s ease-in-out .3s;
+      margin-top: 150px; }
+    .s_part .room li:nth-child(3) {
+      transition: all 1s ease-in-out .4s;
+      margin-top: 200px; }
+    .s_part .room li:nth-child(4) {
+      transition: all 1s ease-in-out .5s;
+      margin-top: 250px; }
+.s_part .detail {
+  text-align: center;
+  margin-bottom: 140px; }
+  .s_part .detail a {
+    display: inline-block;
+    padding: 8px 40px;
+    font-size: 14px;
+    color: #174194;
+    border: 1px solid #174194; }
+
+.e_project .p_title {
+  padding-top: 40px !important; }
+.e_project .room li:hover img {
+  transform: scale(1.08); }
+
+.title {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  padding: 83px 55px 20px;
+  position: relative;
+  top: 30px;
+  transition: all 1s ease; }
+  .title h2 {
+    font-size: 24px;
+    color: #191919;
+    font-weight: 100; }
+    .title h2 div {
+      font-size: 12px;
+      color: #174195;
+      font-weight: 100; }
+  .title .mores {
+    height: 16px;
+    padding: 4px 15px;
+    color: #174195;
+    border: 1px solid #174195; }
+
+.service_title {
+  margin: 0;
+  padding: 105px 55px 20px;
+  border-bottom: 1px solid gray;
+  background: #f2f2f2 !important; }
+
+.e_service {
+  background: #f2f2f2;
+  padding: 0 75px;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -o-flex; }
+  .e_service .room {
+    padding-top: 100px; }
+    .e_service .room li {
+      transition: all .3s ease; }
+      .e_service .room li a {
+        margin-bottom: 20px; }
+        .e_service .room li a img {
+          width: 122px !important;
+          height: 143px !important;
+          margin: 0 auto;
+          display: block; }
+      .e_service .room li:hover {
+        transform: translateY(10px); }
+      .e_service .room li .date {
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 30px; }
+
+.team_ul {
+  padding: 0 45px;
+  box-sizing: border-box;
+  justify-content: center !important; }
+  .team_ul li {
+    width: 32% !important;
+    margin-top: 0 !important;
+    font-size: 14px !important;
+    transition: all 0s ease-in-out; }
+    .team_ul li a img {
+      margin: 0 auto;
+      width: 120px !important;
+      height: 120px !important;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+    .team_ul li .case {
+      margin: 20px 0 10px; }
+    .team_ul li span {
+      padding-left: 20px;
+      color: #888; }
+
+.e_news {
+  background: url(../img/newsBg.jpg); }
+  .e_news .title {
+    padding: 60px 95px; }
+  .e_news .news_item {
+    padding: 0 95px 80px; }
+    .e_news .news_item li {
+      overflow: hidden;
+      font-size: 16px;
+      color: #ccc;
+      text-align: right; }
+      .e_news .news_item li .news_i_box {
+        border: 1px solid transparent;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -o-flex;
+        width: 54%;
+        padding: 27px 0px; }
+        .e_news .news_item li .news_i_box .news_i_c {
+          width: 59%;
+          font-size: 13px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+          .e_news .news_item li .news_i_box .news_i_c a {
+            color: #fff;
+            font-size: 20px; }
+          .e_news .news_item li .news_i_box .news_i_c p {
+            padding-top: 20px; }
+        .e_news .news_item li .news_i_box .new_i_t {
+          font-size: 32px;
+          color: #fff;
+          margin: 8px 100px 0px 85px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+        .e_news .news_item li .news_i_box:hover {
+          border: 1px solid white; }
+      .e_news .news_item li:nth-child(odd) .news_i_box {
+        float: left; }
+      .e_news .news_item li:nth-child(even) .news_i_box {
+        float: right;
+        text-align: left;
+        flex-direction: row-reverse; }
+
+.information {
+  padding: 0 50px 130px;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  color: #696969; }
+  .information dl {
+    margin-right: 40px; }
+    .information dl dt {
+      font-size: 20px;
+      line-height: 40px;
+      color: #888888; }
+    .information dl dd {
+      line-height: 40px; }
+  .information form {
+    flex-grow: 1; }
+    .information form div {
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -o-flex;
+      padding: 0 10px 10px 0;
+      justify-content: space-between; }
+      .information form div input {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 49%;
+        height: 30px;
+        text-indent: 15px; }
+    .information form textarea {
+      width: 100%;
+      text-indent: 15px; }
+    .information form .send {
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      margin: 20px 0; }
+
+/*导航响应式*/
+@media screen and (max-width: 992px) {
+  /*当屏幕尺寸小于992px时，应用下面的CSS样式*/
+  .menu {
+    display: block;
+    z-index: 1000;
+    position: fixed;
+    top: 0; }
+    .menu .m_ulist {
+      z-index: 999; }
+
+  .nav {
+    display: none; }
+
+  .s_banner {
+    max-width: 768px;
+    height: 692px;
+    margin: 0 auto; }
+
+  .e_project .room {
+    flex-direction: column; }
+    .e_project .room li {
+      width: 100% !important; }
+      .e_project .room li img {
+        width: 100% !important;
+        height: 100%; }
+
+  .e_service {
+    padding: 0 15px; }
+    .e_service .room {
+      flex-wrap: wrap; }
+      .e_service .room li {
+        flex-shrink: 1;
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 2px; }
+
+  .e_news .news_item {
+    padding: 0 !important; }
+    .e_news .news_item li {
+      text-align: left !important;
+      padding-left: 15px !important; }
+      .e_news .news_item li .news_i_box {
+        width: 100% !important;
+        flex-direction: row-reverse !important;
+        justify-content: flex-end !important; }
+        .e_news .news_item li .news_i_box .new_i_c {
+          text-align: left !important; }
+        .e_news .news_item li .news_i_box .new_i_t {
+          margin-left: 0 !important; }
+
+  .information {
+    flex-direction: column; } }
+@media screen and (max-width: 784px) {
+  /*当屏幕尺寸小于784px时，应用下面的CSS样式*/
+  .section {
+    padding: 0; }
+    .section .s_banner {
+      max-width: 768px;
+      height: 436px;
+      margin: 0 auto; }
+      .section .s_banner .b_title {
+        text-align: center;
+        font-size: 13px !important;
+        color: #fff;
+        padding: 76px 0 43px 0; }
+        .section .s_banner .b_title h2 {
+          font-size: 20px !important;
+          font-weight: 100;
+          margin-bottom: 20px; }
+      .section .s_banner .b_moreAbout {
+        margin-top: 41px; }
+      .section .s_banner .intro_part {
+        text-align: center;
+        flex: 1; }
+        .section .s_banner .intro_part img {
+          padding-bottom: 10px; }
+        .section .s_banner .intro_part div:nth-child(2) {
+          font-size: 16px !important;
+          color: #fff; }
+        .section .s_banner .intro_part div:nth-child(3) {
+          font-size: 14px !important;
+          color: #fff;
+          padding: 2px; }
+
+  .team_ul {
+    flex-direction: column; }
+    .team_ul li {
+      width: 100% !important; } }
+
+/*# sourceMappingURL=index.css.map */

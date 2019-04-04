@@ -1,0 +1,107 @@
+@charset "UTF-8";
+section .wrap {
+  display: flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -webkit-flex; }
+  section .wrap .section_left {
+    width: 17%;
+    padding-top: 68px;
+    flex-shrink: 0; }
+    section .wrap .section_left .word {
+      text-align: center;
+      margin-bottom: 56px; }
+      section .wrap .section_left .word h2 {
+        font-weight: normal; }
+        section .wrap .section_left .word h2 div {
+          font-size: 26px; }
+        section .wrap .section_left .word h2 span {
+          font-size: 12px; }
+    section .wrap .section_left .code .code_img img {
+      display: block;
+      margin: 0 auto 10px; }
+    section .wrap .section_left .code .code_word {
+      text-align: center; }
+      section .wrap .section_left .code .code_word img {
+        vertical-align: middle; }
+  section .wrap .section_cnt {
+    background: #F4F4F4;
+    flex-grow: 1; }
+    section .wrap .section_cnt .container {
+      display: flex;
+      display: -o-flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+      padding-bottom: 88px; }
+      section .wrap .section_cnt .container img {
+        width: 24%;
+        height: 100%;
+        padding: 67px 70px; }
+      section .wrap .section_cnt .container article {
+        font-size: 14px;
+        line-height: 24px;
+        color: #696969;
+        padding-right: 196px; }
+        section .wrap .section_cnt .container article h3 {
+          padding: 86px 0 44px;
+          font-size: 22px; }
+    section .wrap .section_cnt .partner {
+      position: relative;
+      padding-bottom: 240px;
+      display: flex;
+      display: -o-flex;
+      display: -moz-flex;
+      display: -webkit-flex;
+      justify-content: center; }
+      section .wrap .section_cnt .partner .top {
+        width: 83%;
+        height: 30%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        display: -o-flex;
+        display: -moz-flex;
+        display: -webkit-flex; }
+        section .wrap .section_cnt .partner .top a {
+          flex-grow: 1; }
+      section .wrap .section_cnt .partner .bot {
+        width: 83%;
+        height: 30%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        display: -o-flex;
+        display: -moz-flex;
+        display: -webkit-flex; }
+        section .wrap .section_cnt .partner .bot a {
+          flex-grow: 1; }
+
+@media screen and (max-width: 992px) {
+  /*当屏幕尺寸小于992px时，应用下面的CSS样式*/
+  .wrap {
+    flex-direction: column;
+    max-width: 768px;
+    margin: 0 auto; }
+    .wrap .section_left {
+      width: 100% !important; }
+      .wrap .section_left .word {
+        display: none; }
+    .wrap .container {
+      flex-direction: column !important; }
+      .wrap .container img {
+        width: 50% !important;
+        padding: 0 !important; }
+      .wrap .container article {
+        padding-left: 55px;
+        line-height: 30px !important; }
+        .wrap .container article h3 {
+          display: none !important; }
+    .wrap .partner {
+      display: none !important; } }
+@media screen and (max-width: 784px) {
+  .section_cnt {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px !important; } }
+
+/*# sourceMappingURL=about.css.map */
